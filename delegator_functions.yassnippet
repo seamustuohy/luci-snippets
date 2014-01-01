@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# key: delegator
+# contributor: Seamus Tuohy
+# name: Delegator functions
+# --
+${1:delegatorName}${2:$$(yas/choose-value '(":add" ":insert_after" ":set" ":set_route" ":get" ":parse" ":get_next" ":get_prev" ":get_chain" ":get_active"))}(${3:$$(yas/choose-value '("<add> name, node" "<insert_after> name, after" "<get> name" "<get_next/prev> state"))})

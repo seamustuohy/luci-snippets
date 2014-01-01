@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# key: simpleform
+# contributor: Seamus Tuohy
+# name: SimpleForm (Generic)
+# --
+{${1:s}} = SimpleForm("${2:name}", translate("${3:title}"), translate("${4:description}", ${5:data})
+$0
+
+return $1

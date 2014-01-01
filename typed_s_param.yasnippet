@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# key: section
+# contributor: Seamus Tuohy
+# name: Typed Section (w/ Param/Option)
+# --
+${1:section}${2:$$(yas/choose-value '(".addremove" ".dynamic" ".optional" ".anonymous" ".validation" ".sortable" ".template" ".filter(self, section)" ":depends(key,value)" ".title" ".description"))} = ${3:true}$0

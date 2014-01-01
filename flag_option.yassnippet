@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# key: subopt
+# contributor: Seamus Tuohy
+# name: "Flag" Option Params
+# --
+${1:optnName}${2:$$(yas/choose-value '(".template " ".enabled" ".disabled" ".depends" ".optional" ".default" ".manditory" ".additional" ".add_error" ".remove"))}) = ${3:value} $0

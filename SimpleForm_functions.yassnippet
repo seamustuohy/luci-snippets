@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# key: subopt
+# contributor: Seamus Tuohy
+# name: "SimpleForm" Functions Params
+# --
+${1:simpleFormName}${2:$$(yas/choose-value '(":section" ":field" ":set" ":del" ":get" ":get_scheme"))}(${3:section, option, value})$0
