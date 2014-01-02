@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
 # key: section
 # contributor: Seamus Tuohy
-# name: Section Entry (Generic)
+# name: Section Object
 # --
-${1:s} = ${2:m}:section(${3:$$(yas/choose-value '("SimpleSection" "Table" "NamedSection" "TypedSection"))}, "${4:config}", translate("${5:title}"), translate("${6:description}"))
+${1:s} = ${2:map}:section("${3:$$(yas/choose-value '("SimpleSection" "Table" "NamedSection" "TypedSection"))}", "${4:config_file}", translate("${5:title}"), translate("${6:description}"))
 $0
 
