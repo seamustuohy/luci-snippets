@@ -16,6 +16,7 @@ function ${1:option_name}:${2:$$(yas/choose-value '("formvalue(key)" ;; Returns 
  "set(section, option, value)" ;; Set a value within a specified section
  "del(section, option)" ;; Delete a value from a UCI config
  "get(section, option)" ;; Get a value from this maps UCI  config file
+ "commit_handler(submit_state)" ;; Dummy function that gets passed submitstate on self.save
  ))}
  $0
 end

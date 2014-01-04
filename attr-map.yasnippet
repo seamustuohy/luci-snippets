@@ -1,0 +1,18 @@
+# -*- mode: snippet -*-
+# key: attr
+# contributor: Seamus Tuohy
+# name: map attributes
+# --
+${1:optnName}:${2:$$(yas/choose-value '("readinput" ;; if the map should read input or not boolean
+"proceed" ;; If true (bool) this lets the map skip committing  unless "save and apply" was clicked... then its useless :)
+"flow" ;;
+"uci" ;; The UCI cursor the map uses to make changes
+"save" ;;
+"changed" ;;
+"template" ;;
+"parsechain" ;;
+"scheme" ;; TODO explore what schemes are used for
+"state" ;;
+"apply_on_parse" ;;
+"apply_needed" ;; This value is what is used by the CBI pages to actually apply the uci changes that were saved
+ ))} = ${3:value} $0
