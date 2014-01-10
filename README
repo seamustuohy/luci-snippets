@@ -1,11 +1,7 @@
 Yasnippet LuCI snippets.
-
-IN DEVELOPMENT!!!
+=========================
 
 See http://luci.subsignal.org/trac/wiki/Documentation for full LuCI documentation.
-
-
-The LuCI CBI library has many undocumented features. During my last development push one of my coworkers suggested I put some of my extensive notes into snippets so that they would be able to see the possible options available to them at a glance.
 
 Usage
 
@@ -14,58 +10,38 @@ CBI Snippets
 
 map
 -----
-Creates a generic map object. (DONE)
+Creates a generic map object.
 
 form
 -----
-Creates a simple form. (DONE)
+Creates a simple form.
 
 delegator
 ---------
-Creates a delegator (DONE)
-
+Creates a delegator 
 section
 -------
-Creates one of the predefined section objects. (DONE)
+Creates one of the predefined section objects. 
 
 option
 ------
-Creates one of the predefined option objects. (DONE)
+Creates one of the predefined option objects. 
 
-attr
+attr 
 ------
-Use attr to access special map, section, and option attributes. (options, map, section  DONE. delegator)
+Use attr to access special map, section, and option attributes.
 
-method (DONE)
+method 
 --------
-Use method to access special map, section, and option methods. (DONE)
+Use method to access special map, section, and option methods.
 
 Controller Snippets
 ====================
 
-entry (DONE)
+entry 
 --------
 Create a generic entry for a cbi controller's index.
 
-param (DONE)
+param 
 --------
 Use param to get a list of cbi, template, or call paramiters/formatting.
-
-Template snippets
-=================
-
-env (TODO)
--------
-
-
-
-A list of the environment variables that can be passed to a template.
-
-This is a incomplete (and occationaly erronious) set of snippets that I am working on to help new LuCI developers make the most of the robust, but undocumented, code base. Please be careful to read over the finalized code produced by these snippets as it is still in development, and the occational extra or missing quote or paren is not out of the question.
-
-TODO:
-
- * There are a lot of options that are available, but not useful except for edge cases. Possibly remove them or reorganize them to better support development.
-
- * These snippets need to be terse enough to not lead new users off of crazy edge cases, but in-depth enough to encourage problem solving and code spelunking to find the right solution before giving up and creating their own code heavy templates.
-
