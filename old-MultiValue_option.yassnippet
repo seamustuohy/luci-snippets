@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# key: subopt
-# contributor: Seamus Tuohy
-# name: "MultiValue" Option Params
-# --
-${1:optnName}${2:$$(yas/choose-value '(".template ".widget" ".delimiter" ".valuelist" ".reset_values" ".vallist" ".keylist" ".maxlength" ".depends" ".cast" ".optional" ".default" ".rmempty" ".size" ".manditory" ".additional" ".add_error" ".validate" ".transform" ".remove" ".write"))})  = ${3:$$(yas/choose-value '("select" "checkbox"))}$0

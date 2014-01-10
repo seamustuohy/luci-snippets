@@ -1,9 +1,0 @@
-# -*- mode: snippet -*-
-# key: delegator
-# contributor: Seamus Tuohy
-# name: Delegator (Generic)
-# --
-{${1:d}} = Delegator()
-$0
-
-return $1

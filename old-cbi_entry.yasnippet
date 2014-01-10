@@ -1,8 +1,0 @@
-# -*- mode: snippet -*-
-# key: entry
-# contributor: Seamus Tuohy
-# name: CBI Entry (with CBI extra params)
-# --
-entry(${1:path}, cbi(${2:cbi file loc}, ${3:$$(yas/choose-value '("noheader=true" "nofooter=true" "on_success_to=NODE_NAME" "on_changed_to=NODE_NAME" "on_valid_to" "autoapply=true"))}), title=translate("${4:Menu Title}"), order=${5:10})${6:$$(yas/choose-value '(".i18n" ".dependent" ".leaf" ".sysauth" ))}
-
-$0
