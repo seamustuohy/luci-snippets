@@ -34,27 +34,27 @@ Creates one of the predefined option objects. (DONE)
 
 attr
 ------
-Use attr to access special map, section, and option attributes. (options DONE. map, delegator, and section to go)
+Use attr to access special map, section, and option attributes. (options, map, section  DONE. delegator)
 
-method
+method (DONE)
 --------
-Use method to access special map, section, and option methods.
+Use method to access special map, section, and option methods. (DONE)
 
 Controller Snippets
 ====================
 
-entry
+entry (DONE)
 --------
 Create a generic entry for a cbi controller's index.
 
-param
+param (DONE)
 --------
 Use param to get a list of cbi, template, or call paramiters/formatting.
 
 Template snippets
 =================
 
-env
+env (TODO)
 -------
 
 
