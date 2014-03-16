@@ -1,6 +1,10 @@
 Yasnippet LuCI snippets.
 =========================
 
+For use in vim: http://www.vim.org/scripts/script.php?script_id=1957
+For use in emacs: http://www.emacswiki.org/emacs/Yasnippet
+For use in nano: http://www.explainxkcd.com/wiki/index.php/378:_Real_Programmers
+
 See http://luci.subsignal.org/trac/wiki/Documentation for full LuCI documentation.
 
 Usage
